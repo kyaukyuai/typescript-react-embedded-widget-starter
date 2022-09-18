@@ -8,7 +8,7 @@
 typescript-react-embedded-widget-starter
 </h2>
 
-[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/kyaukyuai/typescript-react-embedded-widget-starter)
+[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/kyaukyuai/TypeScript-React-Embedded-Widget-Starter)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/kyaukyuai/typescript-react-embedded-widget-starter/issues)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg?maxAge=43200)
