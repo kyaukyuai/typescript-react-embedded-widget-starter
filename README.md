@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+<div align="center">
+  <a href="https://github.com/kyaukyuai/typescript-react-embedded-widget-starter">
+    <img alt="" src="https://user-images.githubusercontent.com/1140707/190886280-683e838e-8102-492d-adca-10d68aba1abe.png">
+  </a>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+typescript-react-embedded-widget-starter
+</h2>
 
-## Available Scripts
+[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/kyaukyuai/typescript-react-embedded-widget-starter)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/kyaukyuai/typescript-react-embedded-widget-starter/issues)
+![License](https://img.shields.io/badge/license-MIT-blue.svg?maxAge=43200)
 
-In the project directory, you can run:
+## DEMO
 
-### `yarn start`
+<img width="600px" src="./demo.gif" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Obfuscating of the code
+- No css styling conflicts between the host page and the widget (with https://github.com/premasagar/cleanslate)
 
-### `yarn test`
+## Running the widget
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Install dependencies
 
-### `yarn build`
+```bash
+$ yarn install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Start the development server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+$ yarn dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Production build
 
-### `yarn eject`
+```bash
+yarn build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Road map
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] Unit Tested with code coverage enabled
+- [ ] Continuous Integration ready
