@@ -15,6 +15,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "dev": "webpack serve --open",
+    "lint": "eslint",
     "prepare": "yarn run build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
