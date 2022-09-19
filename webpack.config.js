@@ -1,4 +1,3 @@
-const increaseSpecificity = require('postcss-increase-specificity')
 const JavaScriptObfuscator = require('webpack-obfuscator')
 
 const path = require('path')
