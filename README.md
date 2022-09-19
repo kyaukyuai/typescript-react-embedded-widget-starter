@@ -20,6 +20,11 @@ typescript-react-embedded-widget-starter
 ## Features
 
 - Obfuscating of the code
+- CDN support
+
+  ```html
+  <script src="https://unpkg.com/typescript-react-embedded-widget-starter@latest/dist/embedded-widget.js"></script>
+  ```
 
 ## Running the widget
 

@@ -9,7 +9,7 @@ class RootDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script src="./embedded-widget.js"></script>
+          <script src="https://unpkg.com/typescript-react-embedded-widget-starter@latest/dist/embedded-widget.js"></script>
           <script>EmbeddedWidget.mount();</script>
         </body>
       </Html>
