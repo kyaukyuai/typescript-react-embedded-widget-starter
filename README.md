@@ -15,7 +15,7 @@ typescript-react-embedded-widget-starter
 
 ## DEMO
 
-<img width="600px" src="./demo.gif" />
+<img width="600px" src="https://raw.githubusercontent.com/kyaukyuai/typescript-react-embedded-widget-starter/main/demo.gif?raw=true" />
 
 ## Features
 
