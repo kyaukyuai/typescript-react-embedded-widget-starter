@@ -1,6 +1,6 @@
 {
   "name": "typescript-react-embedded-widget-starter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "building an embedded widget with react and typescript",
   "main": "dist/embedded-widget.js",
   "author": "Yuya Kakui https://github.com/kyaukyuai",
