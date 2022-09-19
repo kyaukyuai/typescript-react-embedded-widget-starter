@@ -20,7 +20,6 @@ typescript-react-embedded-widget-starter
 ## Features
 
 - Obfuscating of the code
-- No css styling conflicts between the host page and the widget (with https://github.com/premasagar/cleanslate)
 
 ## Running the widget
 

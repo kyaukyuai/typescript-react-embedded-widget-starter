@@ -32,30 +32,6 @@ module.exports = {
           },
         ],
       },
-      {
-        test: /\.(scss|css)$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'cssimportant-loader',
-          {
-            loader: 'postcss-loader',
-            options: {
-              postcssOptions: {
-                ident: 'postcss',
-                plugins: [
-                  increaseSpecificity({
-                    stackableRoot: '.cleanslate',
-                    repeat: 1,
-                  }),
-                ],
-              },
-              sourceMap: devMode,
-            },
-          },
-          'sass-loader',
-        ],
-      },
     ],
   },
   devServer: {
