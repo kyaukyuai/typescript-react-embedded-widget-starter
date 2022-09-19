@@ -23,7 +23,6 @@ module.exports = {
         use: [
           {
             loader: 'babel-loader',
-            options: { presets: ['@babel/preset-env', '@babel/react'] },
           },
           {
             loader: 'ts-loader',
@@ -42,5 +41,5 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
-  target: 'web',
+  target: ['web', 'es5'],
 }
