@@ -7,6 +7,7 @@
   "license": "MIT",
   "keywords": [
     "sdk",
+    "react",
     "typescript",
     "widget",
     "embedded",
@@ -48,12 +49,9 @@
     ]
   },
   "dependencies": {
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
     "@styled-icons/ionicons-sharp": "^10.46.0",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
-    "framer-motion": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.5"
