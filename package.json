@@ -49,7 +49,7 @@
     "babel-loader": "8.2.5",
     "babel-plugin-styled-components": "2.0.7",
     "babel-preset-airbnb": "5.0.0",
-    "eslint": "8.23.1",
+    "eslint": "8.28.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-standard-with-typescript": "23.0.0",
     "eslint-plugin-import": "2.26.0",
